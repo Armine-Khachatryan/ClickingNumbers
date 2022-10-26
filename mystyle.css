@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+    padding: 20px;
+}
+
+.calculator-grid {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    display: grid;
+    justify-content: center;
+    width: 305px;
+    height: 100%;
+    align-items: center;
+    grid-template-columns: 100px 100px 100px;
+    column-gap: 1px;
+    row-gap: 5px;
+    color: black;
+    font-size: 24px;
+}
+
+.class-btn-calc{
+    background-color: white;
+    height: 60px;
+}
+
+/*.class-btn-calc:active{*/
+/*    background-color: blue;*/
+/*    height: 60px;*/
+/*    color: white;*/
+/*}*/
+
+/*.act {*/
+/*    background-color: blue;*/
+/*    height: 60px;*/
+/*    color: white;*/
+/*}*/
+
